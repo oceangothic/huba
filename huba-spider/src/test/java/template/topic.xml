@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<template>
+    <encoding>utf8</encoding>
+    <url_pattern>topic/.*</url_pattern>
+    <map target="taojin_data">
+        <field target="xxx" proto="jpath" type="str">$.l2_category</field>
+        <map target="taojin_data2">
+            <field target="title" proto="jpath" type="str">$.topic_name</field>
+        </map>
+        <list target="l1_category" proto="jpath" type="str">$.l1_category</list>
+    </map>
+</template>
