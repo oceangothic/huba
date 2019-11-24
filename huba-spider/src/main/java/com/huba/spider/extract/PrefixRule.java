@@ -2,7 +2,6 @@ package com.huba.spider.extract;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.regex.Matcher;
 
 public class PrefixRule extends Rule {
     @Override

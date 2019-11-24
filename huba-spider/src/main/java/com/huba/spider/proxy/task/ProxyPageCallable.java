@@ -1,12 +1,12 @@
 package com.huba.spider.proxy.task;
 
+import com.huba.common.utils.Preconditions;
 import com.huba.spider.proxy.ProxyListPageParser;
 import com.huba.spider.proxy.ProxyPool;
 import com.huba.spider.proxy.domain.Page;
 import com.huba.spider.proxy.domain.Proxy;
 import com.huba.spider.proxy.http.HttpManager;
 import com.huba.spider.proxy.site.ProxyListPageParserFactory;
-import com.huba.common.utils.Preconditions;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.http.HttpStatus;
 

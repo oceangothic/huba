@@ -3,12 +3,12 @@
  */
 package com.huba.common.cache;
 
-import java.util.concurrent.TimeUnit;
-
 import com.google.common.cache.CacheBuilder;
 import com.google.common.cache.CacheLoader;
 import com.google.common.cache.LoadingCache;
 import com.huba.common.config.Constant;
+
+import java.util.concurrent.TimeUnit;
 
 /**
  * 实现了一个缓存的模板

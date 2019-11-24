@@ -3,9 +3,9 @@
  */
 package com.huba.common.memcached;
 
-import java.util.concurrent.Callable;
-import java.util.concurrent.TimeoutException;
-
+import com.google.common.base.Joiner;
+import net.rubyeye.xmemcached.MemcachedClient;
+import net.rubyeye.xmemcached.exception.MemcachedException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.cache.Cache;
@@ -13,10 +13,8 @@ import org.springframework.cache.support.SimpleValueWrapper;
 import org.springframework.lang.Nullable;
 import org.springframework.util.StringUtils;
 
-import com.google.common.base.Joiner;
-
-import net.rubyeye.xmemcached.MemcachedClient;
-import net.rubyeye.xmemcached.exception.MemcachedException;
+import java.util.concurrent.Callable;
+import java.util.concurrent.TimeoutException;
 
 /**
  * 自定义spring的cache的实现，参考cache包实现

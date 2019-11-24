@@ -2,7 +2,6 @@ package com.huba.spider.proxy;
 
 
 import com.huba.spider.proxy.domain.Proxy;
-import com.huba.spider.proxy.domain.Proxy;
 
 import java.util.List;
 

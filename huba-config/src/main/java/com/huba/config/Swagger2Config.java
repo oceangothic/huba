@@ -1,4 +1,4 @@
-package huba.config;
+package com.huba.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

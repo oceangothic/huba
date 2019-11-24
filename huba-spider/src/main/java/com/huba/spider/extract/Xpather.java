@@ -2,21 +2,18 @@ package com.huba.spider.extract;
 
 
 import com.alibaba.fastjson.JSONObject;
-import com.alibaba.fastjson.JSONArray;
-import org.springframework.beans.factory.annotation.Autowired;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
 import org.springframework.stereotype.Component;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
+import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.concurrent.CopyOnWriteArrayList;
-import javax.annotation.PostConstruct;
-import javax.annotation.PreDestroy;
 
 @Component
 @Configuration

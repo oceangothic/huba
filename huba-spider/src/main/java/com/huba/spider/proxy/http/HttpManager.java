@@ -1,9 +1,9 @@
 package com.huba.spider.proxy.http;
 
+import com.huba.common.utils.IOUtils;
 import com.huba.spider.proxy.config.Constant;
 import com.huba.spider.proxy.domain.Page;
 import com.huba.spider.proxy.domain.Proxy;
-import com.huba.common.utils.IOUtils;
 import org.apache.http.HttpHost;
 import org.apache.http.NoHttpResponseException;
 import org.apache.http.client.CookieStore;

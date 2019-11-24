@@ -4,7 +4,6 @@ import org.w3c.dom.NamedNodeMap;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.regex.Pattern;
 
 public class ExistRule extends Rule {
     String map2 = new String("1");

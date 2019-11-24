@@ -5,7 +5,6 @@ import org.slf4j.LoggerFactory;
 import org.w3c.dom.NamedNodeMap;
 
 import java.util.HashMap;
-import java.util.Map;
 
 public class NodeFactory {
     private static final Logger logger = LoggerFactory.getLogger(RuleFactory.class);

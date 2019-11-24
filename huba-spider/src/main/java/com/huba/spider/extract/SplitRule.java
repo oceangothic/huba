@@ -4,7 +4,6 @@ import org.w3c.dom.NamedNodeMap;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.regex.Pattern;
 
 public class SplitRule extends Rule {
     int index = -1;

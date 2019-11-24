@@ -1,9 +1,9 @@
-import com.huba.spider.extract.Xpather;
 import com.alibaba.fastjson.JSONObject;
-import com.alibaba.fastjson.JSONArray;
-import java.math.BigDecimal;
+import com.huba.spider.extract.Xpather;
+
 import java.io.File;
 import java.io.FileInputStream;
+import java.math.BigDecimal;
 
 public class Test {
     public static void main(String[] args) {
@@ -15,7 +15,7 @@ public class Test {
         tObj.put("price3",Float.parseFloat("8999.01"));
 //        System.out.println(tObj.toJSONString());
         Xpather xpather = new Xpather();
-        xpather.load_templates("D:\\gitlab-projects\\javaPro\\base\\huba-spider\\src\\test\\java\\template",1);
+        xpather.load_templates("D:\\gitlab-projects\\github\\huba\\huba-spider\\src\\test\\java\\template",1);
         String html;
         File file=new File("D:\\gitlab-projects\\javaPro\\base\\huba-spider\\src\\test\\java\\json\\topic.json");
         //File file=new File("/Users/uc/project_new/youlemei_data_extract/crawler_data_extracter/test/B07DJL15QT.html");

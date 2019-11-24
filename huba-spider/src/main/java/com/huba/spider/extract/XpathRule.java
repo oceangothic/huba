@@ -1,11 +1,8 @@
 package com.huba.spider.extract;
 
 import org.apache.commons.lang3.StringUtils;
-import org.dom4j.Element;
-import org.dom4j.io.SAXReader;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.w3c.dom.Document;
 import org.w3c.dom.NamedNodeMap;
 import org.w3c.dom.NodeList;
 
@@ -15,7 +12,6 @@ import javax.xml.xpath.XPathExpression;
 import javax.xml.xpath.XPathFactory;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.regex.Pattern;
 
 public class XpathRule extends Rule {
     private static final Logger logger = LoggerFactory.getLogger(XpathRule.class);

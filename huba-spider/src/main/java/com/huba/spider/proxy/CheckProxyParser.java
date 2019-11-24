@@ -1,6 +1,6 @@
 package com.huba.spider.proxy;
 
-import com.huba.spider.proxy.site.*;
+import com.huba.spider.proxy.site.XiaoHeXiaProxyListPageParser;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -3,10 +3,10 @@
  */
 package com.huba.common.memcached;
 
-import java.util.Collection;
-
 import org.springframework.cache.Cache;
 import org.springframework.cache.support.AbstractCacheManager;
+
+import java.util.Collection;
 
 /**
  * @author HUBA

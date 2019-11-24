@@ -3,10 +3,10 @@
  */
 package com.huba.common.redis;
 
-import java.util.concurrent.TimeUnit;
-
 import org.springframework.data.redis.core.BoundValueOperations;
 import org.springframework.data.redis.core.RedisTemplate;
+
+import java.util.concurrent.TimeUnit;
 
 
 public class AbstractRedisService<K, V> implements IRedisService<K, V> {

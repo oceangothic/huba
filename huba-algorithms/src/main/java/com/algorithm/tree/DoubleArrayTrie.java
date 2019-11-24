@@ -1,10 +1,6 @@
 package com.algorithm.tree;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 /**
  * 把trie tree压缩成两个一维数组base,check的DS-Tree(digital search tree)算法，称为double-array trie(简称DAT)

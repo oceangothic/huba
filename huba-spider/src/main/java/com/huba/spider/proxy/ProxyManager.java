@@ -1,9 +1,9 @@
 package com.huba.spider.proxy;
 
+import com.huba.common.utils.Preconditions;
 import com.huba.spider.proxy.domain.Proxy;
 import com.huba.spider.proxy.http.HttpManager;
 import com.huba.spider.proxy.task.ProxyPageCallable;
-import com.huba.common.utils.Preconditions;
 import io.reactivex.Flowable;
 import io.reactivex.functions.Consumer;
 import io.reactivex.functions.Function;
@@ -13,7 +13,6 @@ import org.apache.http.HttpHost;
 import org.reactivestreams.Publisher;
 
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;

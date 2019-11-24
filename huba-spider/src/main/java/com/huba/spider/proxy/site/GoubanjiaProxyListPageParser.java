@@ -1,7 +1,6 @@
 package com.huba.spider.proxy.site;
 
 import com.huba.spider.proxy.ProxyListPageParser;
-import com.huba.spider.proxy.config.Constant;
 import com.huba.spider.proxy.domain.Proxy;
 import lombok.extern.slf4j.Slf4j;
 import org.jsoup.Jsoup;
