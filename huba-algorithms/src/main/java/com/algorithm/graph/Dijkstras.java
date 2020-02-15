@@ -18,6 +18,7 @@ public class Dijkstras {
         g.addVertex("G", Arrays.asList(new Vertex("C", 4), new Vertex("F", 9)));
         g.addVertex("H", Arrays.asList(new Vertex("E", 1), new Vertex("F", 3)));
         System.out.println(g.getShortestPath("A", "H"));
+        
     }
 }
 
@@ -159,6 +160,5 @@ class Graph {
 
         return new ArrayList<String>(distances.keySet());
     }
-
 }
 
